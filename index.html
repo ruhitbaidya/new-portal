@@ -9,8 +9,42 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+    <header>
+        <div class="container mx-auto">
+            <div class="py-[30px] flex justify-between items-center text-center">
+                <div class="flex-1">
+                    <img src="./image/Logo.png" alt="">
+                </div>
+                <div class="flex-1 text-center">
+                    <button class="btn">Sort By View</button>
+                </div>
+                <div class="flex-1 text-right">
+                    <button class="btn bg-[#FF1F3D] text-white">Blog</button>
+                </div>
+                
+            </div>
+            <hr>
+        </div>
+    </header>
+    <main>
+        <div class="container mx-auto">
+            <div id="btn-container" class="catagory-btn my-[30px] text-center">
 
+            </div>
+            <div id="tube-container" class="grid grid-cols-1 lg:grid-cols-4 gap-[20px]">
+                <img src="" alt="">
+            </div>
+            <div id="error-Container" class="error-message text-center mt-[50px] hidden">
+                <div class="flex justify-center">
+                        <img  src="./image/Icon.png" alt="">
+                </div>
+                <p class="text-[32px] font-[700] mt-[20px]">Oops!! Sorry, There is no content here</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
     <script src="./js/index.js"></script>
 </body>
 </html>
